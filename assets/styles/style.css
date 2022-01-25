@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  position: absolute;
+  inset: 0 auto auto 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#b8e4f0, #98bae7);
+}
